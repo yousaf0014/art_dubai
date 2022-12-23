@@ -1,0 +1,55 @@
+body{background: url(img/background.png) repeat;}
+#container{margin: 0px 5px 0px 5px;}
+#content{min-height: 300px;}
+#header{margin: 10px 10px 10px 10px;}
+#footer{margin: 20px 0px 20px 0px;}
+.ml5{margin-left: 5px;}
+.ml3{margin-right: 3px;}
+.ml2{margin-right: 2px;}
+.ml10{margin-left: 10px;}
+.mr10{margin-right: 10px;}
+.mr5{margin-right: 5px;}
+.error{color: #FF0000;}
+.w100p{width: 100%;}
+.mt5{margin-top: 5px;}
+.mt10{margin-top: 10px;}
+.login-screen{margin-top: 100px;}
+.mt20{margin-top: 20px;}
+.mt10{margin-top: 10px;}
+.f20{font-size: 20px;}
+.fs14{font-size: 14px;}
+.hgt{height: 170px; overflow-y: auto;}
+#overlay {
+  display:none;
+  position:fixed; 
+  background:transparent;
+  left: 50%;
+  top: 50%;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  z-index: 5000;
+}
+.form-search, .form-search .dropdown-menu,.form-search .multiselect,.form-search .btn-sm, .form-search .btn{
+	font-size: 9px;
+}
+.form-search input[type="checkbox"],input[type="radio"]{
+	margin-top: 1px;
+}
+.form-search .form-group{
+	margin-bottom: 5px;
+}
+.form-search .input-sm{
+	font-size: 9px;
+	height: 25px;
+	padding: 3px 5px;
+}
+.pl0{
+  padding-left: 0px;
+}
+.pr5{
+  padding-right: 5px;
+}
+.height-500{
+  max-height: 500px; overflow-y:auto; 
+}
